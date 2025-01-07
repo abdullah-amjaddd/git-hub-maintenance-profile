@@ -6,7 +6,7 @@ char name[20];
 float gpa;
 };
 student getStudentData() {//getStudentData is a udf which have the values of the student
-student s;
+student s;//structure variable is declared to temporary hold the student's data
 cout<<"Enter Student Id:";
 cin>>s.id;
 cout<<"Enter Student name:";
